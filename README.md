@@ -3,7 +3,7 @@
 Debugging objc with source code！
 
 
-###0. Dependence
+### Dependence
 * objc4-723
 * dyld-519.2.1
 * launchd-842.92.1
@@ -16,6 +16,6 @@ Debugging objc with source code！
 * xnu-4570.1.46
 
 
-###1. Usage
+### Usage
 objc->objc4->objc4-723->objc.xcodeproj->target(debug-objc)
 
