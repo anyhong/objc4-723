@@ -2017,6 +2017,7 @@ void
 map_images(unsigned count, const char * const paths[],
            const struct mach_header * const mhdrs[])
 {
+    printf("map_images: %s\n", *paths);
     rwlock_writer_t lock(runtimeLock);
     return map_images_nolock(count, paths, mhdrs);
 }
@@ -2036,7 +2037,7 @@ load_images(const char *path __unused, const struct mach_header *mh)
 {
     // Return without taking locks if there are no +load methods here.
     if (!hasLoadMethods((const headerType *)mh)) return;
-
+    printf("load_images：%s\n", path);
     recursive_mutex_locker_t lock(loadMethodLock);
 
     // Discover load methods

@@ -14,6 +14,7 @@
 - [libdispatch-913.1.6](https://opensource.apple.com/tarballs/libdispatch/libdispatch-913.1.6.tar.gz)
 - [libplatform-161](https://opensource.apple.com/tarballs/libplatform/libplatform-161.tar.gz)
 - [libpthread-301.1.6](https://opensource.apple.com/tarballs/libpthread/libpthread-301.1.6.tar.gz)
+- [Libsystem-1252.zip](https://opensource.apple.com/tarballs/Libsystem/Libsystem-1252.tar.gz)
 - [xnu-4570.1.46](https://opensource.apple.com/tarballs/xnu/xnu-4570.1.46.tar.gz)
 
 ### Usage

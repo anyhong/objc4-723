@@ -11,6 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         ANYObject *obj = [[ANYObject alloc] init];
+        NSLog(@"end");
     }
     return 0;
 }
